@@ -1,5 +1,4 @@
-#outer,
-.wrapper {
+#outer {
   background-image: linear-gradient(to bottom, #e07b00, crimson, darkred);
 }
 
@@ -40,8 +39,22 @@ fieldset,
   background-color: #CCB793;
 }
 
+#workskin {
+  background-color: #CCB793;
+}
+
 fieldset {
   background-color: #AB8F74;
+}
+
+.notice {
+  background: #b84f38;
+  border: 2px solid #7c0100;
+  color: #fff;
+}
+
+.notice a {
+  color: #fff !important;
 }
 
 a:visited {
@@ -68,6 +81,7 @@ fieldset {
 
 .group .header,
 .blurb ul.tags,
+.blurb blockquote,
 #outer .current {
   background: #AB8F74;
   border: 3px solid #3d0400;
