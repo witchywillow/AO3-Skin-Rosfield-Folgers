@@ -1,5 +1,5 @@
 #outer {
-  background-image: linear-gradient(to bottom, #e07b00, crimson, darkred);
+  background-image: linear-gradient(to bottom, #e07b00, darkred);
 }
 
 #header .heading {
@@ -89,6 +89,15 @@ fieldset {
   padding: 0.75em;
 }
 
+#outer .group .heading,
+#header .actions a,
+fieldset.listbox .heading,
+.userstuff .heading {
+  text-shadow: none;
+  color: #3d0400;
+  background: none;
+}
+
 ul.tags li.warnings:before {
   content: "Warnings: ";
   color: #900;
@@ -171,10 +180,14 @@ li.relationships a {
   border: none;
 }
 
-#header ul.primary a,
-#header ul.primary .menu a,
 #header .dropdown .menu a:hover,
 #header .dropdown .menu a:focus {
+  background: #6B352B;
+}
+
+#header ul.primary a,
+#header ul.primary .menu a,
+#header .menu {
   background: #AB8F74;
 }
 
