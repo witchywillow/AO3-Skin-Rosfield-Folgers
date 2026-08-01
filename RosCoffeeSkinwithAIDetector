@@ -1,0 +1,289 @@
+#outer {
+  background-image: linear-gradient(to bottom, #e07b00, darkred);
+}
+
+#header .heading {
+  height: 200px;
+  width: 95%;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  background-color: none;
+  background-image: url("https://i.imgur.com/nzyOWen.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#dashboard,
+#main,
+#footer .module {
+  background: #CCB793;
+  margin: .23em 0.23em;
+  padding: 0.23em;
+}
+
+blockquote,
+.secondary form {
+  border-radius: 10px;
+}
+
+#main,
+#inner .group,
+#inner .region,
+#footer .module,
+fieldset,
+.flash {
+  border: 2px solid #3d0400;
+  outline: 0;
+  border-radius: 1.25em;
+  box-shadow: 0 -4px 0 #6B352B, 0 4px 0 #6B552B, -4.5px 0 0 #B04430, 5px 0 0 #B04430, inset 0 0 4.5px;
+  margin-bottom: .25em;
+}
+
+#inner .group {
+  background-color: #CCB793;
+}
+
+#workskin {
+  background-color: #CCB793;
+}
+
+fieldset {
+  background-color: #AB8F74;
+}
+
+.notice {
+  background: #b84f38;
+  border: 2px solid #7c0100;
+  color: #fff;
+}
+
+.notice a {
+  color: #fff !important;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: darkbrown;
+}
+
+a:hover {
+  color: crimson;
+}
+
+a:active {
+  color: darkred;
+}
+
+.blurb .module,
+#inner .group .group .group,
+fieldset {
+  border: 0;
+}
+
+.group .header,
+.blurb ul.tags,
+#outer .current {
+  background: #AB8F74;
+  border: 3px solid #3d0400;
+  border-radius: 1.25em;
+  padding: 0.10em;
+}
+
+#outer .group .heading,
+#header .actions a,
+fieldset.listbox .heading,
+.userstuff .heading {
+  text-shadow: none;
+  color: #3d0400;
+  background: none;
+}
+
+ul.tags li.warnings:before {
+  content: "Warnings: ";
+  color: #900;
+  font-weight: bold;
+}
+
+li.warnings + li.relationships:before {
+  content: "Relationships: ";
+  color: #900;
+  font-weight: bold;
+}
+
+li.relationships + li.characters:before {
+  content: "Characters: ";
+  color: #900;
+  font-weight: bold;
+}
+
+li.characters + li.freeforms:before {
+  content: "Additional Tags: ";
+  color: #900;
+  font-weight: bold;
+}
+
+li.warnings + li.characters:before {
+  content: "Characters: ";
+  color: #900;
+  font-weight: bold;
+}
+
+li.warnings + li.freeforms:before {
+  content: "Additional Tags: ";
+  color: #900;
+  font-weight: bold;
+}
+
+li.relationships + li.freeforms:before {
+  content: "Additional Tags: ";
+  color: #900;
+  font-weight: bold;
+}
+
+li.relationships a {
+  background: none;
+}
+
+.work .relationship a.tag {
+  background: none;
+}
+
+#footer {
+  background: none;
+  border: none;
+}
+
+#header h1 {
+  top: 0.2em;
+  left: 0.2em;
+}
+
+#header #greeting {
+  right: 1.7em;
+}
+
+#header h1 img {
+  opacity: 0.75;
+}
+
+#header li.search {
+  float: none;
+  display: block;
+  margin-top: 0.26em;
+}
+
+#header li.search input {
+  border: none;
+}
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus {
+  background: #6B352B;
+}
+
+#header ul.primary a,
+#header ul.primary .menu a,
+#header .menu {
+  background: #AB8F74;
+}
+
+#dashboard {
+  background-color: #CCB793;
+}
+
+#main.dashboard {
+  position: relative;
+  float: center;
+}
+
+#dashboard,
+#dashboard.own {
+  background-color: #CCB793;
+}
+
+#outer #footer .heading,
+#outer #footer .actions a,
+#header ul.primary a {
+  color: #900;
+}
+
+.blurb ul.required-tags li span,
+.bookmark .status span,
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+legend,
+textarea,
+input,
+#header ul.primary a,
+.icon {
+  border: 0.75px solid #8B0000;
+  border-radius: 1.5em;
+  box-shadow: 0 0 1px #555;
+}
+
+#footer {
+  height: 500px;
+  margin-top: 25px;
+  background-image: url("https://i.imgur.com/lHJcLLN.png");
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#main .index,
+#header ul.primary,
+#header ul.primary .menu {
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+#header .primary .menu li {
+  border-bottom: none;
+}
+
+p.font-claude-response-body {
+  background-color: #602929 !important;
+  color: #E84343 !important;
+}
+
+p.font-claude-response-body::before {
+  content: "[⚠︎]   ";
+  color: #E84343 !important;
+  font-weight: bold !important;
+}
+
+body:has(.userstuff p.font-claude-response-body) h2.title.heading::before {
+  content: "⚠︎ AI ARTIFACT DETECTED ⚠︎\A\A";
+  white-space: pre;
+  color: red;
+  font-weight: bold;
+}
+
+p.ds-markdown-paragraph {
+  background-color: #602929 !important;
+  color: #E84343 !important;
+}
+
+p.ds-markdown-paragraph::before {
+  content: "[⚠︎]   ";
+  color: #E84343 !important;
+  font-weight: bold !important;
+}
+
+body:has(.userstuff p.ds-markdown-paragraph) h2.title.heading::before {
+  content: "⚠︎ AI ARTIFACT DETECTED ⚠︎\A\A";
+  white-space: pre;
+  color: red;
+  font-weight: bold;
+}
