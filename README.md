@@ -21,11 +21,19 @@ You may use this same screen to revert it by selecting "Stop using"
 
 Disclaimer:
 This skin is a parody and not affiliated with any company. 
+
 This skin was designed with desktop in mind. While usable in mobile, there are slight issues when looking on user profiles
+
 with how the dashboard displays. 
+
 This may be updated in a future release.
+
 
 
 Thank you Roscest Fans!
 
-Upon request, we are also including a version of the skin that is designed to alert when Claude or Deepseek HTML tag remnants are detected in a work. We promise No False Positives as it alerts to a very specific set of code left behind if something is directly copied and pasted. While there are no false positives, they will not pick up on every possible usage as it relies on the manner it was copied over into the AO3 text editor. Thank you to wickedcrescent for providing the base highlighting code we wove in and adjusted for the skin. 
+
+
+Upon request, we are also including a version of the skin that is designed to alert when Claude or Deepseek HTML tag remnants are detected in a work. We promise No False Positives as it alerts to a very specific set of code left behind if something is directly copied and pasted. While there are no false positives, they will not pick up on every possible usage as it relies on the manner it was copied over into the AO3 text editor. 
+
+Thank you to wickedcrescent for providing the base highlighting code we wove in and adjusted for the skin. 
